@@ -10,6 +10,7 @@
     background-color: #25d366;
     color: white;
     border-radius: 50%;
+    border: 2px solid #25d366;
     text-align: center;
     box-shadow: 2px 2px 3px #999;
     z-index: 999;
@@ -293,6 +294,7 @@ div.circulo{
     background-color: white;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 1px 2px #999;
 }
 
 .icons{
