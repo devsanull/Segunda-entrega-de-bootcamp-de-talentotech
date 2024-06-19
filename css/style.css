@@ -1,6 +1,24 @@
 /* Fuente importada de google */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+.a-whatsapp{
+    right: 40px;
+    bottom: 40px;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.fa-whatsapp{
+    font-size: 60px;
+}
+
 *{
     margin: 0;
     padding: 0;
