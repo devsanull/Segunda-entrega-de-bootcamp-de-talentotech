@@ -1,0 +1,347 @@
+/* Fuente importada de google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+/* Header */
+header{
+    display: flex;
+    background-color: #ededed;
+    justify-content: space-between;
+    min-height: 75px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Links */
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.nav-logo{
+    color: #252B42;
+    cursor: pointer;
+}
+
+a.nav-login{
+    color: #96BB7C;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+a.nav-registrer{
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilo de botón de registro */
+button.btn-registrer{
+    border-radius: 5px;
+    border: 5px;
+    padding: 15px 25px 15px 25px;
+    background-color: #96BB7C;
+    text-align: center;
+}
+
+/* Botones */
+.botones1{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+/* body */
+body{
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+/* Caja de información publicitaria */
+div.info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 682px;
+    background-color: #DDF4FF;
+}
+
+div.boxinfo{
+    width: 50%;
+    height: 682px;
+    padding: 132px 148px 30px 148px;
+}
+
+/* h5 <h5>Best dental surgeons</h5> */
+.title{
+    color: #96BB7C;
+    font-size: 16px;
+    padding: 0 auto 10px 0;
+}
+
+/* Titulo grande <h1 class="title1">25K+ STUDENTS <br>TRUST US</h1>*/
+.title1{
+    color: #252B42;
+    width: 450px;
+    font-size: 45px;
+    padding: 40px 31px 0 0;
+}
+
+h4.slogan{
+    color: #737373;
+    width: 400px;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 30px 115px 0 0;
+}
+
+span.botones2{
+    padding: 30px 100px 0 0;
+    display: inline-flex;
+}
+
+button.btn-quote{
+    border-radius: 5px;
+    border: 5px;
+    padding: 5px 60px 5px 60px;
+    background-color: #96BB7C;
+    color: white;
+    margin-right: 10px;
+}
+
+button.btn-more{
+    border-radius: 5px;
+    padding: 5px 50px 5px 50px;
+    background-color: #DDF4FF;
+    border: 2px solid #96BB7C;
+}
+
+a.quote{
+    color: white;
+    cursor: pointer;
+    text-align: justify;
+}
+
+a.more{
+    color: #96BB7C;
+    cursor: pointer;
+    text-align: justify;
+}
+
+/* Caja de imagenes */
+div.boximage{
+    height: 682px;
+    width: 50%;
+    padding: 0 95px 0 0;
+}
+
+/* Circulo */
+div.circulo{
+    margin: 191px 0 0 150px;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 79.18px solid #B8F0D7;
+    position: absolute;
+}
+
+.box-girl{
+    width: 532.15px;
+    height: 622.04px;
+    margin-top: 60px;
+    margin-left: 128.47px;
+    position: relative;
+}
+
+.box-solteros{
+    width: 162.35px;
+    height: 81.88px;
+    margin-top: -396.18px;
+    margin-left: 65px;
+    margin-bottom: 163.94px;
+    position: relative;
+}
+
+.box-competidores{
+    width: 162.35px;
+    height: 81.88px;
+    margin-top: 163.94px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.box-estadisticas{
+    width: 162.35px;
+    height: 81.88px;
+    margin-top: -278.12px;
+    margin-left: 512px;
+    position: relative;
+}
+
+/* Imagenes */
+.img-chica{
+    width: 532.15px;
+    height: 622.04px;
+}
+
+.img-solteros{
+    width: 162.35px;
+    height: 81.88px;
+}
+
+.img-competidores{
+    width: 218.82px;
+    height: 149.65px;
+}
+
+.img-estadisticas{
+    width: 196.24px;
+    height: 183.53px;
+}
+
+/* Cajas div y span */
+.div-estadisticas{
+    width: 100%;
+    height: 264px;
+    top: 777px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-estadisticas{
+    width: 1050px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-beneficios{
+    width: 100%;
+    height: 718px; 
+    top: 1041px;
+    padding: 160px 195px 0 195px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF2F3;
+}
+
+.title4{
+    width: 1044px;
+    height: 50px;
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-beneficios{
+    width: 1050px;
+    height: 268px; 
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.span-boxes{
+    width: 240px;
+    height: 104px;
+    text-align: center;
+}
+
+.title2{
+    color: #96BB7C;
+}
+
+.title3{
+    color: #252B42;
+}
+
+.span-beneficios{
+    width: 328px;
+    height: 268px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    width: 92px;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.title5{
+    color: #252B42;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+hr{
+    border: 0;
+    border-color: #E74040;
+    background-color: #E74040;
+    width: 50px;
+    height: 3px;
+    margin-left: 40px;
+}
+
+p.p-style{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #737373;
+}
+
+/* Estilos y elementos del footer */
+.footer {
+    background-color: #FAFAFA; 
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center;
+}
+
+span.footer-text, .p-footer{
+    color: #737373;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon {
+    margin-left: 15px;
+}
+
+.footer-icon img {
+    width: 20px; /* Ajustar el tamaño de los iconos según sea necesario */
+    height: 20px;
+}
